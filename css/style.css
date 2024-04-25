@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    height: 170vh;
+    width: 100%;
+    color: black;
+}
+
+.header-logo {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(98, 180, 118);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacao {
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    height: 150vh;
+    width: 100%;
+}
+
+h1 {
+    width: 100%;
+    height: 5.97vh;
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    width: 100%;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    height: 59.3vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 2px solid rgb(98, 180, 118);
+    height: 55vh;
+    width: 22%;
+    margin: 20px 15px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 9px;
+    width: 98%;
+}
+
+.for-button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#for-redes {
+    margin-top: 35px;
+}
+
+.for-ads {
+    width: 100%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 37%;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(98, 180, 118);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.noticias {
+    padding-top: 20px;
+    display: block;
+}
+
+.cards-noticias {
+    display: block;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-noticia {
+    border: 2px solid rgb(98, 180, 118);
+    width: 73.5%;
+    height: 22vh;
+    margin-left: 15%;
+    display: flex;
+}
+
+.title-texto {
+    margin-top: 9px;
+    margin-left: 20px;
+}
+
+#noticia-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paragrafo {
+    margin-left: 20px;
+}
+
+footer {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(98, 180, 118);
+    color: white;
+    display: flex;
+    align-items: center;
+}
