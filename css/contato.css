@@ -11,6 +11,7 @@ body {
 }
 
 .container {
+    border: 2px solid red;
     height: 100vh;
     width: 100%;
 }
@@ -66,7 +67,9 @@ h5 {
 }
 
 #input-mensagem {
-    height: 20vh;
+    padding: 5px;
+    border: 1.75px solid rgb(98, 180, 118);
+    border-radius: 3px;
 }
 
 button {
