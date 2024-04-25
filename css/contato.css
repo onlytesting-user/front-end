@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(98, 180, 118);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacao {
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.campo {
+    margin-bottom: 20px;
+    margin-left: 280px;
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+input {
+    display: block;
+    width: 70%;
+    height: 3.9vh;
+    border: 1.75px solid rgb(98, 180, 118);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+h5 {
+    text-decoration: none;
+    font-weight: normal;
+    color: gray;
+    margin-top: 5px;
+}
+
+#input-mensagem {
+    height: 20vh;
+}
+
+button {
+    margin-left: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(98, 180, 118);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(160, 240, 180);
+}
+
+footer {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(98, 180, 118);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

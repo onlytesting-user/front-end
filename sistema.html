@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/sistema.css">
+    <title>Sistema</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header-logo">
+            <img src="img/logo.png" width="150px" alt="Logo ESUDA">
+        </header>
+        <nav class="navegacao">
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="sistema.html">Sistema</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+        <div class="campo" id="tipo-pessoa">
+            <label for="select-tipo-pessoa">Tipo de Pessoa:</label>
+            <select id="select-tipo-pessoa">
+                <option value="um">Discente</option>
+                <option value="dois">Docente</option>
+            </select>
+        </div>
+        <div class="campo" id="campo-nomecompleto">
+            <div id="campo-nome">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" required>
+            </div>
+            <div id="campo-sobrenome">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" id="sobrenome" required>
+            </div>
+        </div>
+        <div class="campo" id="data-matricula">
+            <div id="campo-nascimento">
+                <label for="nascimento">Data de Nascimento</label>
+                <input type="date" id="nascimento" required>
+            </div>
+            <div id="campo-matricula">
+                <label for="matricula">Matrícula</label>
+                <input type="number" id="matricula" required>
+            </div>
+        </div>
+        <div class="campo" id="campo-email">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" required>
+        </div>
+        <div class="campo" id="campo-telefone">
+            <label for="telefone">Telefone</label>
+            <input type="number" id="telefone" required>
+        </div>
+        <div class="campo" id="ingresso-rendimento">
+            <div id="campo-ingresso">
+                <label for="ingresso">Semestre de Ingresso</label>
+                <input type="number" id="ingresso" required>
+            </div>
+            <div id="campo-rendimento">
+                <label for="rendimento">Coeficiente de Rendimento</label>
+                <input type="number" id="rendimento" required>
+            </div>
+        </div>
+        <div class="campo" id="campo-disciplinas">
+            <label for="disciplinas">Disciplinas</label>
+            <input type="number" id="disciplinas" required>
+        </div>
+        <div class="botoes">
+            <button class="add">Adicionar</button>
+            <button class="list">Listar</button>
+            <button class="remove">Remover</button>
+        </div>
+    </div>
+    <footer>
+        <p>
+            Associação Recifense de Educação e Cultura – CNPJ: 10.473.817/0001-30 
+        </p>
+    </footer>
+</body>
+</html>

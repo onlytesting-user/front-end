@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    height: 115vh;
+    width: 100%;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(98, 180, 118);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacao {
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 280px;
+    margin-top: 25px;
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+input, select {
+    display: block;
+    width: 70%;
+    height: 3.9vh;
+    border: 1.75px solid rgb(98, 180, 118);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#campo-nomecompleto, #data-matricula, #ingresso-rendimento {
+    display: flex;
+    flex-direction: row;
+}
+
+#nome, #sobrenome, #nascimento, #matricula, #ingresso, #rendimento {
+    width: 220%;
+}
+
+#campo-sobrenome, #campo-matricula, #campo-rendimento {
+    margin-left: 260px;
+}
+
+.botoes {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-right: 5px;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(98, 180, 118);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add:hover {
+    background-color: rgb(135, 243, 162);
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid rgb(0, 208, 255);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(0, 208, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.list:hover {
+    background-color: rgb(139, 233, 254);
+}
+
+.remove {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.remove:hover {
+    background-color: rgb(250, 103, 103);
+}
+
+footer {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(98, 180, 118);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
